@@ -1,2 +1,2 @@
-# js-practise-series
+# js-practice-series
 Javascript mastery
