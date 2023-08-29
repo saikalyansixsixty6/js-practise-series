@@ -43,3 +43,37 @@
      console.log("Ee sala cup namde")
  }
  myFunction()
+
+
+ //++++++++++++++++++++++++++++++++++++++++++++++++
+
+ /*
+ Two types of memories:
+ 1.stack
+ 2.heap
+ 1.stack memory -- primitive datatype values are stored in stack memory.
+ */
+//example
+let myName = "sai kalyan";
+let myName2 = myName; // here myName is shares only copy of its value to myName2
+myName2 = "sai kalyan rohit"
+console.log(myName) 
+console.log(myName2)
+
+/**
+ 2.heap -- Reference data types are stored in heap memory
+ */
+//example-:
+let obj1 = {
+    name:"kalyan",
+    email:"sai234@gmail.com"
+}
+
+let obj2 = obj1;// here obj2 is refer the value to obj1
+obj2.email = "kalyan234@gmail.com"
+
+console.log(obj1)
+console.log(obj2)
+/**
+ * here in both console logs obj1,obj2 prints same output the objects points to the same reference value
+ */
